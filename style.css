@@ -154,11 +154,29 @@ nav a {
     color: #fff;
 }
 
+.part-same1 {
+    width: 100%;
+    height: 110vh;
+    background-color: #000;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 10vw;
+    color: #fff;
+}
+
 .part-3 {
     background-image: url('Img/deserve-more-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.part-same1 h1 {
+    font-size: 5vw;
+    font-family: GilroyBold;
+    line-height: 12vh;
 }
 
 .part-same h1 {
@@ -167,10 +185,22 @@ nav a {
     line-height: 12vh;
 }
 
+.part-same1 h3 {
+    font-size: 2vw;
+    font-family: GilroyBold;
+    line-height: 12vh;
+}
+
 .part-same h3 {
     font-size: 2vw;
     font-family: GilroyBold;
     line-height: 12vh;
+}
+
+.part-same1 p {
+    font-size: 1vw;
+    width: 45%;
+    margin-bottom: 5vh;
 }
 
 .part-same p {
@@ -272,6 +302,27 @@ nav a {
     height: 100%;
 }
 
+.phone1 {
+    display: none;
+    width: 80vw;
+    height: 50vh;
+    border-radius: 50px;
+    border: 2px solid #020202;
+    overflow: hidden;
+}
+
+.phone-img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.phone-img1 img {
+    width: 70vw;
+}
+
 .phone {
     width: 20vw;
     height: 60vh;
@@ -331,8 +382,8 @@ nav a {
 }
 
 .part-8 h1 {
-    font-size: 3vw;
-    line-height: 8vh;
+    font-size: 5vw;
+    line-height: 10vh;
 }
 
 .part-8 p {
@@ -489,7 +540,7 @@ nav a {
 
     .part-same p {
         width: 95%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .part-same button {
@@ -511,51 +562,65 @@ nav a {
     }
 
     .part-5 {
+        height: 110vh;
+        overflow: hidden;
+    }
+
+    .phone {
         display: none;
     }
 
-    .pin-spacer {
-        display: none !important;
+    .phone1 {
+        display: initial;
     }
 
-    /* .phone {
-        width: 60vw;
-        height: 40vh;
-    }
-    .phone-img img {
-        width: 60vw;
-    }
-    .phone-img{
-        margin-left: 1%;
-    } */
-    .part-8{
+    .part-8 {
+        height: 130vh;
         flex-direction: column;
+        gap: 3vw;
     }
-    .rating-value h1{
+
+    .part-8 h1 {
+        font-size: 12vw;
+    }
+
+    .part-8 p {
+        font-size: 4vw;
+        width: 90%;
+    }
+
+    .rating-value h1 {
         font-size: 22vw;
     }
-    .rating-value h3{
+
+    .rating-value h3 {
         font-size: 5vw;
-    }   
-    .rating-value{
+    }
+
+    .rating-value {
         flex-direction: column;
         align-items: center;
     }
-    .rating img{
+
+    .rating img {
         width: 20vw;
     }
-    .rating button img{
+
+    .rating button img {
         width: 4.5vw;
     }
-    .rating button{
+
+    .rating button {
         padding: 2.5vw 2vw;
     }
-    .rating{
+
+    .rating {
         align-items: center;
         gap: 5vw;
     }
-    .slider-part{
+
+    .slider-part {
         width: 80%;
     }
-    
+
 }
